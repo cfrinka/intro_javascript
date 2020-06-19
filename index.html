@@ -5,11 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="meuscript.js"></script>
-
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
+    <h1> Comparador de Números</h1>
+
+    <div class="formulatio">
+        <div class="inputs-container">
+            <div class="caixa-input">
+                <span> Número 1</span>
+                <input id="numero1" />
+            </div>
+            <div class="caixa-input">
+                <span> Número 2</span>
+                <input id="numero2" />
+            </div>
+        </div>
+
+        <div class="botao">
+            <button onclick="minhaFuncao()"> Comparar Números</button>
+        </div>
+    </div>
+
+    <div class="resulado">
+        <h1 id="resultado">O resultado aparecerá aqui</h1>
+    </div>
 
 </body>
 
